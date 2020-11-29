@@ -56,7 +56,7 @@ bot.remove_command('help')
 @bot.event
 async def on_ready():
     print("started")
-    ch = bot.get_channel(762131453684219934)#Your Channel ID Here
+    ch = bot.get_channel(741366190462599268)#Your Channel ID Here
     await bot.change_presence(activity=discord.Game(name='with Trivia Lives| -help for info'))
     await ch.send("**__Bot Restarted with Upgrades!__** :smirk_cat:")
 
@@ -66,7 +66,7 @@ async def dm(ctx):
 @commands.dm_only()
 @bot.command()
 async def lifes(ctx, refname, amount=1):
-    logchannel = bot.get_channel(782648355708862504)
+    logchannel = bot.get_channel(741366190462599268)
     user_in_list = True
     commander_id = ctx.message.author.id
     num_list = []
