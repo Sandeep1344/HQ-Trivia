@@ -1,8 +1,0 @@
-discord
-asyncio
-pymongo
-HQApi
-requests
-lomond
-datetime 
-dnspython==2.0.0
